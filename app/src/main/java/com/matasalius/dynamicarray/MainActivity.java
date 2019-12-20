@@ -80,6 +80,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Removes first element
+        Button bRemove = findViewById(R.id.button6);
+        bRemove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                laptops.removeAt(0);
+                Toast.makeText(MainActivity.this, "First element removed", Toast.LENGTH_SHORT).show();
+            }
+        });
+
         // Add new elements in array
         Button bAdd = findViewById(R.id.button4);
         bAdd.setOnClickListener(new View.OnClickListener() {
