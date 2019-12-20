@@ -31,7 +31,7 @@ public class Laptop extends DynamicArray {
 
     @Override
     public String toString() {
-        return String.format("%-8s %-2d %5.1f %7d %8.1f %s", brand, coreNumber, screenSize, driveSize, price, validate());
+        return String.format("%-10s %-4d %5.1f %7d %8.1f %s", brand, coreNumber, screenSize, driveSize, price, validate());
     }
 
     public String getBrand() {
