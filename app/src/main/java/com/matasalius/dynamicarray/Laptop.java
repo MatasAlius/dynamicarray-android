@@ -3,8 +3,8 @@ package com.matasalius.dynamicarray;
 import java.util.Comparator;
 
 public class Laptop extends DynamicArray {
-    final static private double minPrice = 300.0;
-    final static private double maxPrice = 1000.0;
+    final static private double minPrice = 200.0;
+    final static private double maxPrice = 5000.0;
 
     private String brand;
     private int coreNumber;
